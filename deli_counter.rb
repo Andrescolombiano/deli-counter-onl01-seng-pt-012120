@@ -15,3 +15,13 @@ end
  deli << new_person 
  puts "Welcome, #{new_person}. You are number #{deli.length} in line."
 end
+
+
+def new_serving (deli)
+if deli == 0
+ puts "There is nobody waiting to be served!."
+else
+puts "Currently serving #{deli.first}" 
+deli.shift
+end
+end
