@@ -24,4 +24,5 @@ else
 puts "Currently serving #{deli.first}" 
 deli.shift
 end
+deli
 end
